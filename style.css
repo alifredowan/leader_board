@@ -2,6 +2,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: bisque;
+    width: 1200px;
 }
 main{
     display: flex;
@@ -15,7 +16,6 @@ main{
     padding: 30px;
     border-radius: 8px;
     margin-top: 21px;
-    grid-column-
 }
 /* top-player style */
 .top-player{
@@ -70,8 +70,33 @@ hr{
     font-size: 16px;
     color: rgb(7, 16, 68);
 }
-.blog-author a{
+.author a{
     font-size: 16px;
     text-decoration: none;
     color:slateblue;
+}
+/* cources style */
+.cources{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.cource-banner img{
+    width: 224px;
+    height: 104px;
+}
+.cource-ratting{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.cource-ratting .filled{
+    color: rgb(228, 228, 42);
+}
+.cource-ratting .empty{
+    color: rgb(185, 155, 155);
+    
 }
